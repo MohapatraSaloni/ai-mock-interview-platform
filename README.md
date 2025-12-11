@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AI Mock Interview Platform
 
 ## Overview
@@ -15,15 +15,15 @@ This project is an AI-powered mock interview system capable of real-time questio
 - frontend/ → UI
 - docs/ → Architecture diagrams & documents
 - models/ → AI prompt templates & configurations
-=======
+  
 # AI Mock Interview Platform
 
 ## Overview
 This project is an AI-powered mock interview system capable of real-time questioning and evaluation.
 
 ## Tech Stack
-- Backend: FastAPI (Python)
-- Frontend: React
+- Backend: FastAPI (Python),Uvicorn (ASGI server)
+- Frontend: React(Vite),TailWind CSS
 - AI: Gemini API
 - Database: MongoDB
 
@@ -32,4 +32,25 @@ This project is an AI-powered mock interview system capable of real-time questio
 - frontend/ → UI
 - docs/ → Architecture diagrams & documents
 - models/ → AI prompt templates & configurations
->>>>>>> 38ab0df3792f62ad8529ad491af9c9ae9a48a7c8
+  
+## Status
+- Core interview flow working
+- Gemini AI integrated
+- Auto-evaluation + scoring
+- 10-question interview limit
+- Final summary report
+  
+## How to Run the Project (Local Setup)
+
+1.Start Backend (FastAPI)
+cd backend
+uvicorn main:app --reload
+
+Backend will run at:**http://127.0.0.1:8000**
+2.Start Frontend (React + Vite)
+Open a new terminal:
+cd frontend/mock-ai-interview-platform
+npm install   # first time only
+npm run dev
+
+Frontend will run at: **http://localhost:5173**
