@@ -54,3 +54,9 @@ npm install   # first time only
 npm run dev
 
 Frontend will run at: **http://localhost:5173**
+
+**Contributors**:
+1.Saloni Mohapatra(AI Developer and API Integration)
+2.Nischay(Frontend Developer)
+3.Drishan Roy(Backend Developer)
+4.Aman Singh(UI/UX Design)
